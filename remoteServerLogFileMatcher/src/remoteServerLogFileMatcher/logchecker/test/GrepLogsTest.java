@@ -4,7 +4,7 @@ import com.jcraft.jsch.JSchException;
 
 import remoteServerLogFileMatcher.logchecker.RemoteServerLogFileMatcher;
 
-public class GreapLogsTest {
+public class GrepLogsTest {
 
 	public static void main(String args[]){
 		RemoteServerLogFileMatcher remoteServerLogFileMatcher=new RemoteServerLogFileMatcher();
