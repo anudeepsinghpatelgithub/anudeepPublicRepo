@@ -12,10 +12,10 @@ import com.jcraft.jsch.Session;
 
 public class RemoteServerLogFileMatcher {
 
-	public boolean grepLogs(String user, String pass, String host, int port,
+	public boolean grepLogs(JSch jsch,String user, String pass, String host, int port,
 			String command, String pattern) throws JSchException {
 		boolean found = false;
-		JSch jsch = new JSch();
+	
 		Session session = jsch.getSession(user, host, port);
 		java.util.Properties config = new java.util.Properties();
 		config.put("StrictHostKeyChecking", "no");
