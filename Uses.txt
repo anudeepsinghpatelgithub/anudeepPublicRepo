@@ -1,0 +1,3 @@
+Create the object of RemoteServerLogFileMatcher and call the method grepLogs(String user,String pass,String host, int port,String command,String pattern);
+and pass the user,pass,host,port,grep command,pattern
+refer the test class. 
